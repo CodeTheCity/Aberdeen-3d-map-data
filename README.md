@@ -2,7 +2,7 @@
 
 ## Simple query
 
-The basic building location data is sourced from open street map. This is achieved using the query tool at http://overpass-turbo.eu/
+The basic building location data is sourced from open street map. This is achieved using the query tool at http://overpass-turbo.eu/, Handy Overpass QL guide / docs here -> http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#All_data_in_a_bounding_box 
 
 Using a simple query like this:
   
@@ -10,11 +10,6 @@ Using a simple query like this:
     This query looks for nodes, ways and relations 
     with the given key/value combination.
     Choose your region and hit the Run button above!
-    
-    -2.1011677, 57.1461714
-    
-    -2.1119872, 57.1418796 low left
-    -2.0905636, 57.1491036 top right
     */
     [out:json][timeout:25];
     (
