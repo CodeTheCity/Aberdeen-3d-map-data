@@ -18,11 +18,10 @@ Using a simple query like this:
     */
     [out:json][timeout:25];
     (
-      node(57.1418796,-2.1119872,57.1491036,-2.0905636);
-        way["building"](area.a);
-      <;
+      way(57.1418796,-2.1119872,57.1491036,-2.0905636) -> .a;
+     // <;
     );
-    out;
+    //out;
      
     
     // print results
