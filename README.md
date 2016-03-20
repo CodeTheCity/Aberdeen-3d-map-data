@@ -10,11 +10,6 @@ Using a simple query like this:
     This query looks for nodes, ways and relations 
     with the given key/value combination.
     Choose your region and hit the Run button above!
-    
-    -2.1011677, 57.1461714
-    
-    -2.1119872, 57.1418796 low left
-    -2.0905636, 57.1491036 top right
     */
     [out:json][timeout:25];
     (
