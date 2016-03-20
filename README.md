@@ -2,7 +2,7 @@
 
 ## Simple query
 
-The basic building location data is sourced from open street map. This is achieved using the query tool at http://overpass-turbo.eu/
+The basic building location data is sourced from open street map. This is achieved using the query tool at http://overpass-turbo.eu/, Handy Overpass QL guide / docs here -> http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#All_data_in_a_bounding_box 
 
 Using a simple query like this:
   
